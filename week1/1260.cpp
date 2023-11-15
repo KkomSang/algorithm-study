@@ -1,4 +1,4 @@
-/*dfs&bfs*/
+/*dfs & bfs*/
 #include <iostream>
 #include <queue>
 #include <stack>
