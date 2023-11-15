@@ -7,4 +7,4 @@
 !*.*
 
 #Unginore all dirs
-!*/
+!*/.DS_Store
