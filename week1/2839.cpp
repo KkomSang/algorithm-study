@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main(){
     int N, bag = 0;
     cin>>N;
