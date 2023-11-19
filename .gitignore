@@ -1,10 +1,10 @@
-.DS_Store
+# Ignore all
+*
 
-#Ignore all
-#*
-
-#Unignore all with extensions
+# Unignore all with extensions
 !*.*
 
-#Unginore all dirs
-!*/.DS_Store
+# Unignore all dirs
+!*/
+
+.vscode
