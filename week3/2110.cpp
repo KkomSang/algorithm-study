@@ -19,7 +19,7 @@ int main(){
         }
     }
     start = 1; // 최소 거리
-    end = max-min; //최대
+    end = max-min; //최대 거리
     sort(house,house+n);
      while(start<=end){
         router = 1;
@@ -42,6 +42,5 @@ int main(){
         }
     }
     cout<<min_d<<endl;
-    
     return 0;
 }
