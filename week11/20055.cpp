@@ -49,14 +49,6 @@ int main(){
         con.push_back(a);
         robot.push_back(false);
     }
-    // for(int i = 0; i<2*n; i++){
-    //     cout<<con[i]<<" ";
-    // }
-    // cout<<"\n";
-    // for(int i = 0; i<2*n; i++){
-    //     cout<<robot[i]<<" ";
-    // }
-    // cout<<"\n";
     while(zero_check() < k){
         rotation();
         move_robot();
