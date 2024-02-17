@@ -2,12 +2,12 @@
 using namespace std;
 int n, result = 0;
 int col[15] = {0}; 
-struct node{
+typedef struct node{
     int col;//열
     int row;//행
     node* left;
     node* right;
-};
+}node;
 bool promising(int i){
     int k = 1;
     bool s = true;
